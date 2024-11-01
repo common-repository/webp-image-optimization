@@ -1,0 +1,21 @@
+/* Styles for WebP Image Optimization Settings */
+
+/* Default styles for the value display */
+.webp-settings__value {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Hide number input on wider screens */
+@media (min-width: 768px) {
+    .webp-settings__input {
+        display: none;
+    }
+}
+
+/* Hide range input on narrower screens */
+@media (max-width: 767px) {
+    .webp-settings__slider {
+        display: none;
+    }
+}
